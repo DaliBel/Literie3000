@@ -26,7 +26,9 @@ foreach ($matelas as $mat) {
         <?= $mat["name"] ?>
     </h2>
     <p>Taille : <?= $mat["taille"] ?></p>
-    <span>Prix : <?= $mat["prix"] ?></span>
+    <p>Largeur : <?= $mat["largeur"] ?> cm</p>
+    <p>Longueur : <?= $mat["longueur"] ?> cm</p>
+    <span>Prix : <?= $mat["prix"] ?> €</span>
 </div>
 <?php
 }

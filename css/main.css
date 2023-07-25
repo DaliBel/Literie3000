@@ -11,7 +11,7 @@
     max-width: 1100px;
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
-    background-color: #f5efbd;
+    background-color: #f0edd9;
     padding: 1rem;
   }
 
@@ -47,14 +47,14 @@
   }
   @media screen and (max-width: 1199px) {
     .mat {
-      width: 48%;
+      width: 23%;
     }
   }
 
   .btn-matelas {
-    /* font-family: "Filson Soft"; */
+    
     font-size: 1.8rem;
-    background-color: #768df1;
+    background-color: #03197a;
     color: white;
     padding: 1rem 2rem;
     margin: 1rem auto;
