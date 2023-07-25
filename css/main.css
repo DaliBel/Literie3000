@@ -51,9 +51,9 @@
     }
   }
 
-  .btn-matelas {
+  .btn {
     
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     background-color: #03197a;
     color: white;
     padding: 1rem 2rem;
@@ -61,4 +61,14 @@
     text-transform: uppercase;
     border: 0;
     border-radius: 2rem;
+  }
+
+  .container form {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container form .form-group {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
   }
