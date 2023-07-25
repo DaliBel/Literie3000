@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+
+  body {
+    max-width: 1100px;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f5efbd;
+    padding: 1rem;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .matelas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+
+  .mat {
+    width: 23%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .mat img {
+    width: 100%;
+  }
+  @media screen and (max-width: 1199px) {
+    .mat {
+      width: 48%;
+    }
+  }
+
+  .btn-matelas {
+    /* font-family: "Filson Soft"; */
+    font-size: 1.8rem;
+    background-color: #768df1;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 2rem;
+  }
